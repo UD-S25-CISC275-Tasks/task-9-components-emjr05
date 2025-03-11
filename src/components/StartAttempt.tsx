@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+<<<<<<< HEAD
 
 import { Button } from "react-bootstrap";
 
@@ -24,4 +25,10 @@ export function StartAttempt(): React.JSX.Element {
 
     </div>;
 
+=======
+import { Button } from "react-bootstrap";
+
+export function StartAttempt(): React.JSX.Element {
+    return <div>Start Attempt</div>;
+>>>>>>> origin/task-components
 }

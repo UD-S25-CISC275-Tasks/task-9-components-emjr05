@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+<<<<<<< HEAD
 
 import { Button } from "react-bootstrap";
 
@@ -79,4 +80,10 @@ export function CycleHoliday(): React.JSX.Element {
 
     </div>;
 
+=======
+import { Button } from "react-bootstrap";
+
+export function CycleHoliday(): React.JSX.Element {
+    return <div>Cycle Holiday</div>;
+>>>>>>> origin/task-components
 }
