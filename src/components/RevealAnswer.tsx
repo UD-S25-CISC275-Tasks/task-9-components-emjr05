@@ -1,33 +1,19 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
 
 import { Button } from "react-bootstrap";
 
-
 export function RevealAnswer(): React.JSX.Element {
-
-    const[visble, setVisibility] = useState<boolean>(false)
-
+    const [visble, setVisibility] = useState<boolean>(false);
 
     function showAnswer(): void {
-
-        visble ?  setVisibility(false) : setVisibility(true)
-
+        visble ? setVisibility(false) : setVisibility(true);
     }
 
-
-    return <div>Reveal Answer
-
-        <Button onClick={showAnswer}>Reveal Answer</Button>
-
-        {visble && <div>42</div>}
-
-    </div>;
-
-=======
-import { Button } from "react-bootstrap";
-
-export function RevealAnswer(): React.JSX.Element {
-    return <div>Reveal Answer</div>;
->>>>>>> origin/task-components
+    return (
+        <div>
+            Reveal Answer
+            <Button onClick={showAnswer}>Reveal Answer</Button>
+            {visble && <div>42</div>}
+        </div>
+    );
 }
